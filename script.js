@@ -32,7 +32,7 @@ const divide = (num1, num2) => {
     return num1 / num2;
   }
   alert('Numbers divided by zero are equal to infinity');
-  return;
+  return Infinity;
 };
 
 const operate = (operator, num1, num2 = num1) => {
